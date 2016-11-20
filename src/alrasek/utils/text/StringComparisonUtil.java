@@ -139,25 +139,7 @@ public class StringComparisonUtil {
 				return i;
 			}
 		}
-		return -1;
-			
-			
-			/*
-			if (isWordSame(oldWords, newWords, newWordPos, i)){
-				if (thereAreNoMoreWords(newWordPos+1, newWords, oldWords, i+1)){
-					return i;
-				}
-				if (isWordSame(oldWords, newWords, newWordPos+1, i+1)){
-					if (thereAreNoMoreWords(newWordPos+2, newWords, oldWords, i+2)){
-						return i;
-					}
-					if (isWordSame(oldWords, newWords, newWordPos+2, i+2)){
-						return i;
-					}
-				}
-			}
-		}
-		return -1;*/		
+		return -1;		
 	}
 
 	private static boolean thereAreNoMoreWords(int newWordPos, String[] newWords, String[] oldWords, int i) {
