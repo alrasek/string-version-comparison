@@ -1,4 +1,5 @@
 # string-version-comparison
+Util file with methods for getting text with differences from changing old to new version of given text.
 Comparing old and new versions of String. Result is a string with highlighted by tag words which have changed.
 Methods:
 * **getComparisonString** : 
